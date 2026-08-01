@@ -1,7 +1,27 @@
 aid: principly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/principly.png
 name: Principly
-description: Principly is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Principly, Inc. is an SEC-registered investment adviser that operates the
+  consumer fintech product Backer (backer.com), a mobile-first platform for
+  opening and managing 529 education savings plans. Backer lets parents open a
+  529 plan in minutes, automate contributions, and share custom gifting links so
+  family and friends can contribute to a child's college fund. The service helps
+  families choose among more than 100 U.S. 529 plans, reporting 250K+ users and
+  $70M+ saved. It is a consumer-facing mobile and web application and does not
+  publish a public developer API, documentation, or SDKs. Principly is backed by
+  500 Global and was added to the API Evangelist network as a portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/principly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Financial Services
+- 529 Plans
+- Education Savings
+- College Savings
+- Consumer Finance
+- Investment Adviser
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/principly-domain-security.yml
 - type: Website
   url: https://backer.com
+- type: Pricing
+  url: https://backer.com/pricing
+- type: Blog
+  url: https://backer.com/blog
+- type: HelpCenter
+  url: https://help.backer.com/en/
+- type: Support
+  url: https://help.backer.com/en/
+- type: SignUp
+  url: https://app.backer.com/signup
+- type: Login
+  url: https://app.backer.com/signin
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
