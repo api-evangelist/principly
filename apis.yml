@@ -46,7 +46,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - 529 Plans
 - Education Savings
 - College Savings
@@ -63,6 +63,7 @@ tags_raw:
 - Consumer Finance
 - Investment Adviser
 - Mobile App
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
